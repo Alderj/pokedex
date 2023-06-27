@@ -39,7 +39,7 @@ const renderPokemon = async (pokemon) =>{
 
 form.addEventListener('submit', (event) =>{
     event.preventDefault(); 
-    renderPokemon(input.value.toLowercase());    
+    renderPokemon(input.value.);    
 });
 
 buttonPrev.addEventListener('click', () =>{
